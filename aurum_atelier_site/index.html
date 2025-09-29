@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aurum Atelier — Complete Static Site</title>
+  <meta name="description" content="Aurum Atelier — full static demo site with categories, product pages and working cart (local only)." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container top-inner">
+      <div class="brand">
+        <div class="logo">AA</div>
+        <div>
+          <div class="brand-title">Aurum Atelier</div>
+          <div class="brand-sub">Curated luxury perfumes — Demo</div>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#" data-filter="all">All</a>
+        <a href="#" data-filter="Luxury">Luxury</a>
+        <a href="#" data-filter="Fresh & Floral">Fresh & Floral</a>
+        <a href="#" data-filter="Oud & Resin">Oud & Resin</a>
+        <a href="#" data-filter="Limited">Limited</a>
+        <a href="#" data-filter="Specialty">Specialty</a>
+        <a href="#" data-filter="Home Fragrance">Home</a>
+        <a href="#" data-filter="Travel">Travel</a>
+        <a href="#" data-filter="Everyday">Everyday</a>
+      </nav>
+      <div class="controls">
+        <input id="search" placeholder="Search products, notes..." />
+        <button id="cartBtn">Cart (<span id="cartCount">0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <div class="hero-left">
+        <h1>Perfumes for Moments that Matter</h1>
+        <p class="muted">Explore categories, filter by notes, and view product details. This demo site includes a localStorage-backed cart — no server required.</p>
+        <div class="hero-actions">
+          <button class="primary" onclick="filterCategory('Luxury')">Shop Luxury</button>
+          <button class="outline" onclick="filterCategory('Fresh & Floral')">Fresh & Floral</button>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="https://source.unsplash.com/900x900/?perfume-bottle,still-life&sig=401" alt="Hero" />
+      </div>
+    </section>
+
+    <section class="catalog">
+      <div class="catalog-header">
+        <h2 id="catalogTitle">All Products</h2>
+        <div class="catalog-controls">
+          <label>Sort:
+            <select id="sortSelect">
+              <option value="default">Recommended</option>
+              <option value="price-asc">Price ↑</option>
+              <option value="price-desc">Price ↓</option>
+              <option value="title-asc">Name A→Z</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div id="productsGrid" class="products-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="categoriesOverview" class="categories-overview">
+      <h3>Categories</h3>
+      <div class="categories-list" id="categoriesList"></div>
+    </section>
+
+    <footer class="site-footer">
+      <div>© Aurum Atelier — Demo static site • Images via Unsplash</div>
+      <div>Built for demonstration — no payments processed.</div>
+    </footer>
+  </main>
+
+  <!-- Product modal -->
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button class="close" onclick="closeModal()">×</button>
+      <div class="modal-content">
+        <div class="modal-images" id="modalImages"></div>
+        <div class="modal-details">
+          <h2 id="modalTitle"></h2>
+          <div id="modalNotes" class="muted"></div>
+          <div id="modalPrice" class="price"></div>
+          <div class="modal-actions">
+            <button class="primary" id="addToCartModal">Add to Cart</button>
+            <button class="outline" onclick="closeModal()">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

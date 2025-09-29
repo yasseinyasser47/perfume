@@ -1,0 +1,267 @@
+[
+  {
+    "id": 1,
+    "title": "Midnight Amber",
+    "category": "Luxury",
+    "price": 198,
+    "old_price": 260,
+    "notes": "Amber \u2022 Saffron \u2022 Oud",
+    "images": [
+      "https://source.unsplash.com/900x900/?perfume-bottle,amber&sig=101",
+      "https://source.unsplash.com/900x900/?perfume-bottle,amber,glass&sig=102"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Saffron Solace",
+    "category": "Luxury",
+    "price": 154,
+    "old_price": 220,
+    "notes": "Saffron \u2022 Honeyed rose \u2022 Guaiacwood",
+    "images": [
+      "https://source.unsplash.com/900x900/?saffron,perfume&sig=111"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Oud Noir Tonka",
+    "category": "Luxury",
+    "price": 198,
+    "old_price": 260,
+    "notes": "Oud \u2022 Tonka bean \u2022 Vanilla",
+    "images": [
+      "https://source.unsplash.com/900x900/?oud,perfume&sig=121"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Gilded Rose & Incense",
+    "category": "Luxury",
+    "price": 175,
+    "old_price": 240,
+    "notes": "Damask rose \u2022 Frankincense \u2022 Creamy base",
+    "images": [
+      "https://source.unsplash.com/900x900/?rose,perfume&sig=131"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Luna Mist",
+    "category": "Fresh & Floral",
+    "price": 161,
+    "old_price": 230,
+    "notes": "Neroli \u2022 White musk \u2022 Bergamot",
+    "images": [
+      "https://source.unsplash.com/900x900/?neroli,perfume&sig=141"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Casablanca Mist",
+    "category": "Fresh & Floral",
+    "price": 84,
+    "old_price": 120,
+    "notes": "Sea salt \u2022 Jasmine \u2022 Cedar",
+    "images": [
+      "https://source.unsplash.com/900x900/?citrus,perfume&sig=151"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Musk 74 Poudre",
+    "category": "Fresh & Floral",
+    "price": 161,
+    "old_price": 230,
+    "notes": "Powdery musk \u2022 Heliotrope \u2022 Almond",
+    "images": [
+      "https://source.unsplash.com/900x900/?musk,perfume&sig=161"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Citrus Coast",
+    "category": "Fresh & Floral",
+    "price": 92,
+    "old_price": 120,
+    "notes": "Bergamot \u2022 Mandarin \u2022 Sea breeze",
+    "images": [
+      "https://source.unsplash.com/900x900/?citrus,perfume,bottle&sig=171"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Desert Tobacco 01",
+    "category": "Oud & Resin",
+    "price": 161,
+    "old_price": 230,
+    "notes": "Tobacco \u2022 Orange peel \u2022 Tonka",
+    "images": [
+      "https://source.unsplash.com/900x900/?tobacco,perfume&sig=181"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Shaghaf Oud Azraq",
+    "category": "Oud & Resin",
+    "price": 154,
+    "old_price": 220,
+    "notes": "Cool oud \u2022 Marine \u2022 Spice",
+    "images": [
+      "https://source.unsplash.com/900x900/?oud,marine&sig=191"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Amber 07",
+    "category": "Oud & Resin",
+    "price": 161,
+    "old_price": 230,
+    "notes": "Resinous amber \u2022 Cedar \u2022 Benzoin",
+    "images": [
+      "https://source.unsplash.com/900x900/?amber,perfume&sig=201"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Muattar Night Oud",
+    "category": "Limited",
+    "price": 189,
+    "old_price": 249,
+    "notes": "Intimate oud \u2022 Evening wear",
+    "images": [
+      "https://source.unsplash.com/900x900/?oud,limited,perfume&sig=211"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Velvet Harmony",
+    "category": "Limited",
+    "price": 126,
+    "old_price": 180,
+    "notes": "Leather \u2022 Praline \u2022 Smoked vetiver",
+    "images": [
+      "https://source.unsplash.com/900x900/?velvet,perfume&sig=221"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Aurum Gift Set",
+    "category": "Limited",
+    "price": 320,
+    "old_price": 420,
+    "notes": "Curated selection \u2022 Gift-ready",
+    "images": [
+      "https://source.unsplash.com/900x900/?perfume-gift,set&sig=231"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Tea & Tobacco No.5",
+    "category": "Specialty",
+    "price": 142,
+    "old_price": 190,
+    "notes": "Black tea \u2022 Smoked tobacco \u2022 Vanilla",
+    "images": [
+      "https://source.unsplash.com/900x900/?tea,perfume&sig=241"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Jasmine Veil",
+    "category": "Specialty",
+    "price": 132,
+    "old_price": 180,
+    "notes": "Jasmine grandiflorum \u2022 Tuberose \u2022 Musk",
+    "images": [
+      "https://source.unsplash.com/900x900/?jasmine,perfume&sig=251"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Marine Oud",
+    "category": "Specialty",
+    "price": 172,
+    "old_price": 220,
+    "notes": "Oud \u2022 Sea salt \u2022 Driftwood",
+    "images": [
+      "https://source.unsplash.com/900x900/?marine,perfume&sig=261"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Velvet Leather",
+    "category": "Specialty",
+    "price": 145,
+    "old_price": 190,
+    "notes": "Leather \u2022 Suede \u2022 Amber",
+    "images": [
+      "https://source.unsplash.com/900x900/?leather,perfume&sig=271"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Cedar Whisper",
+    "category": "Home Fragrance",
+    "price": 68,
+    "old_price": 95,
+    "notes": "Cedar \u2022 Vetiver \u2022 Bergamot (diffuser)",
+    "images": [
+      "https://source.unsplash.com/900x900/?diffuser,perfume&sig=281"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Santal Wood Spray",
+    "category": "Home Fragrance",
+    "price": 74,
+    "old_price": 99,
+    "notes": "Sandalwood \u2022 Vanilla \u2022 Cardamom (room spray)",
+    "images": [
+      "https://source.unsplash.com/900x900/?sandalwood,perfume&sig=291"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Pocket Oud",
+    "category": "Travel",
+    "price": 42,
+    "old_price": 60,
+    "notes": "Mini oud spray \u2022 10ml",
+    "images": [
+      "https://source.unsplash.com/900x900/?mini,perfume&sig=301"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Blossom Roller",
+    "category": "Travel",
+    "price": 36,
+    "old_price": 49,
+    "notes": "Roll-on floral \u2022 8ml",
+    "images": [
+      "https://source.unsplash.com/900x900/?roller,perfume&sig=311"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Eau de Citrus",
+    "category": "Everyday",
+    "price": 59,
+    "old_price": 79,
+    "notes": "Light citrus \u2022 Clean musk",
+    "images": [
+      "https://source.unsplash.com/900x900/?everyday,perfume&sig=321"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Noir Eau",
+    "category": "Everyday",
+    "price": 99,
+    "old_price": 130,
+    "notes": "Warm spicy floral \u2022 All-day wear",
+    "images": [
+      "https://source.unsplash.com/900x900/?noir,perfume&sig=331"
+    ]
+  }
+]
